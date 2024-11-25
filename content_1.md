@@ -506,6 +506,13 @@ $$
 (a+b)^2 = a^2 + 2ab + b^2
 $$
 
+```
+
+$$
+(a+b)^2 = a^2 + 2ab + b^2
+$$
+```
+
 $$
 \int_{0}^{x}{e^t}dt = \frac{ {\rm d} e^x }{ {\rm d} x } - 
     \begin{vmatrix}
@@ -514,24 +521,32 @@ $$
     \end{vmatrix}
 $$
 
+```
+$$
+\int_{0}^{x}{e^t}dt = \frac{ {\rm d} e^x }{ {\rm d} x } - 
+    \begin{vmatrix}
+    1 & 0 \\
+    0 & 1 \\
+    \end{vmatrix}
+$$
+```
+
 # 14 内嵌HTML<a name="14-内嵌HTML"></a>
 
-<center>居中：</center>
+<center>居中</center>
 
-`<center>居中：</center>`
-
-<kbd>快捷键</kbd>
-
-`<kbd>快捷键</kbd>`
+`<center>居中</center>`
 
 <b>加粗</b>
 
 `<b>加粗</b>`
 
 <i>倾斜</i>
+
 `<i>倾斜</i>`
 
 <button>按钮（没用）</button>
+
 `<button>按钮（没用）</button>`
 
 # 总结<a name="总结"></a>
