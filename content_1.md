@@ -1,6 +1,6 @@
 # 文章标题
 
-发布时间：2024-11-25
+<div style="text-align:center;">2024-11-25</div>
 
 <!-- TOC -->
 - [文章标题](#文章标题)
@@ -33,11 +33,17 @@
 
 ### 1.2 小节<a name="12-小节"></a>
 
-这是第一章第二小节的内容。
+这是第一章第二小节的内容，图片
+
+![图片](https://raw.githubusercontent.com/3542Q/ImageRepository/main/image_1.png)
 
 ## 第二章节<a name="第二章节"></a>
 
-这里是第二个主要章节的内容。
+这里是第二个主要章节的内容，居中图片
+<div align="center">
+	<img src="https://raw.githubusercontent.com/3542Q/ImageRepository/main/image_1.png" />
+</div>
+
 
 ### 2.1 小节<a name="21-小节"></a>
 
