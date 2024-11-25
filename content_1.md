@@ -514,7 +514,7 @@ $$
 ```
 
 $$
-\int_{0}^{x}{e^t}dt = \frac{ {\rm d} e^x }{ {\rm d} x } - 
+\int_{0}^{x}{e^t}dt = \frac{de^x}{dx} - 
     \begin{vmatrix}
     1 & 0 \\
     0 & 1 \\
@@ -523,11 +523,14 @@ $$
 
 ```
 $$
-\int_{0}^{x}{e^t}dt = \frac{ {\rm d} e^x }{ {\rm d} x } - 
+
+$$
+\int_{0}^{x}{e^t}dt = \frac{de^x}{dx} - 
     \begin{vmatrix}
     1 & 0 \\
     0 & 1 \\
     \end{vmatrix}
+$$
 $$
 ```
 
@@ -545,9 +548,9 @@ $$
 
 `<i>倾斜</i>`
 
-<button>按钮（没用）</button>
+<button>按钮</button>
 
-`<button>按钮（没用）</button>`
+`<button>按钮</button>`
 
 # 总结<a name="总结"></a>
 
