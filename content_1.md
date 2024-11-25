@@ -11,11 +11,11 @@
   - [2.1 换行](#21-换行)
   - [2.2 分割线](#22-分割线)
 - [3 文字](#3-文字)
-- [3.1 字体](#31-字体)
-- [3.2 小标](#32-小标)
+  - [3.1 字体](#31-字体)
+  - [3.2 小标](#32-小标)
 - [4 列表](#4-列表)
-- [4.1 无序列表](#41-无序列表)
-- [4.2 有序列表](#42-有序列表)
+  - [4.1 无序列表](#41-无序列表)
+  - [4.2 有序列表](#42-有序列表)
 - [5 块](#5-块)
 - [6 代码](#6-代码)
 - [6.1 单行代码](#61-单行代码)
@@ -24,6 +24,10 @@
 - [8 脚注](#8-脚注)
 - [9 图片](#9-图片)
 - [10 表格](#10-表格)
+- [11 图](#11-图)
+- [12 表情符号](#12-表情符号)
+- [13 公式](#13-公式)
+- [14 内嵌HTML](#14-内嵌html)
 - [总结](#总结)
 <!-- /TOC -->
 
@@ -78,7 +82,7 @@ markdown里的标题语法如下，其中此处标题为一级标题：
 
 # 3 文字<a name="3-文字"></a>
 
-# 3.1 字体<a name="31-字体"></a>
+## 3.1 字体<a name="31-字体"></a>
 
 **粗体**：`**粗体**`
 
@@ -88,9 +92,11 @@ markdown里的标题语法如下，其中此处标题为一级标题：
 
 *斜体*: `*斜体*`
 
+==高亮==: `==高亮==`
+
 为了显示\*，可以使用转义符号`\`：`\*`
 
-# 3.2 小标<a name="32-小标"></a>
+## 3.2 小标<a name="32-小标"></a>
 
 上标: a<sup>2</sup>: `a<sup>2</sup>`
 
@@ -98,7 +104,7 @@ markdown里的标题语法如下，其中此处标题为一级标题：
 
 # 4 列表<a name="4-列表"></a>
 
-# 4.1 无序列表<a name="41-无序列表"></a>
+## 4.1 无序列表<a name="41-无序列表"></a>
 
 用法：`(*/+/-) + 空格 + 列表内容`
 
@@ -120,7 +126,7 @@ markdown里的标题语法如下，其中此处标题为一级标题：
 * + - 三级
 ```
 
-# 4.2 有序列表<a name="41-有序列表"></a>
+## 4.2 有序列表<a name="41-有序列表"></a>
 
 用法：`数字 + (.) + 空格`
 
@@ -173,14 +179,13 @@ int main(){
 代码如下：
 
 ```
-请忽视开头和结尾的\
-\``` c 
-#include<stdio.h>
-int main(){
-	printf("hello world\n");
-	return 0;
-}
-\```
+    ``` c 
+    #include<stdio.h>
+    int main(){
+        printf("hello world\n");
+        return 0;
+    }
+    ```
 ```
 
 # 7 链接<a name="7-链接"></a>
@@ -216,23 +221,15 @@ https://3542q.github.io/
 
 ![图片](https://raw.githubusercontent.com/3542Q/ImageRepository/main/image_1.png)
 
-居中图片
-<div align="center">
-	<img src="https://raw.githubusercontent.com/3542Q/ImageRepository/main/image_1.png" />
-</div>
 
 ```
 插入图片
 ![图片](https://raw.githubusercontent.com/3542Q/ImageRepository/main/image_1.png)
 
-居中图片
-<div align="center">
-	<img src="https://raw.githubusercontent.com/3542Q/ImageRepository/main/image_1.png" />
-</div>
-
 ```
 
 # 10 表格<a name="10-表格"></a>
+
 |	1	|	顶部1	|	3	|
 |  :--- |  :--- |  :--- |
 |	4	|	内容1	|	6	|
@@ -247,16 +244,301 @@ https://3542q.github.io/
 |	10	|	11	|	12	|
 ```
 
+# 11 图<a name="11-图"></a>
 
+
+```mermaid
+graph LR
+    A[A] --> B[B] 
+    A1[A] --- B1[B] 
+    A4[A] -.- B4[B] 
+    A5[A] -.-> B5[B] 
+    A7[A] ==> B7[B] 
+    A2[A] -- 描述 --- B2[B] 
+    A3[A] -- 描述 --> B3[B] 
+    A6[A] -. 描述 .-> B6[B] 
+    A8[A] == 描述 ==> B8[B]
+```
+
+```
+    ```mermaid
+    graph LR
+        A[A] --> B[B] 
+        A1[A] --- B1[B] 
+        A4[A] -.- B4[B] 
+        A5[A] -.-> B5[B] 
+        A7[A] ==> B7[B] 
+        A2[A] -- 描述 --- B2[B] 
+        A3[A] -- 描述 --> B3[B] 
+        A6[A] -. 描述 .-> B6[B] 
+        A8[A] == 描述 ==> B8[B]
+    ```
+```
+
+```mermaid
+graph TD
+    id[带文本的矩形]
+    id4(带文本的圆角矩形)
+    id3>带文本的不对称的矩形]
+    id1{带文本的菱形}
+    id2((带文本的圆形))
+```
+
+```
+    ```mermaid
+    graph TD
+        id[带文本的矩形]
+        id4(带文本的圆角矩形)
+        id3>带文本的不对称的矩形]
+        id1{带文本的菱形}
+        id2((带文本的圆形))
+    ```
+```
+
+
+```mermaid
+graph LR
+    start[开始] --> input[输入A,B,C]
+    input --> conditionA{A是否大于B}
+    conditionA -- YES --> conditionC{A是否大于C}
+    conditionA -- NO --> conditionB{B是否大于C}
+    conditionC -- YES --> printA[输出A]
+    conditionC -- NO --> printC[输出C]
+    conditionB -- YES --> printB[输出B]
+    conditionB -- NO --> printC[输出C]
+    printA --> stop[结束]
+    printC --> stop
+    printB --> stop
+```
+
+```
+    ```mermaid
+    graph LR
+        start[开始] --> input[输入A,B,C]
+        input --> conditionA{A是否大于B}
+        conditionA -- YES --> conditionC{A是否大于C}
+        conditionA -- NO --> conditionB{B是否大于C}
+        conditionC -- YES --> printA[输出A]
+        conditionC -- NO --> printC[输出C]
+        conditionB -- YES --> printB[输出B]
+        conditionB -- NO --> printC[输出C]
+        printA --> stop[结束]
+        printC --> stop
+        printB --> stop
+    ```
+```
+
+自定义样式
+```mermaid
+graph LR
+    id1(Start)-->id2(Stop)
+    style id1 fill:#f9f,stroke:#333,stroke-width:4px,fill-opacity:0.5
+    style id2 fill:#ccf,stroke:#f66,stroke-width:2px,stroke-dasharray: 10,5
+```
+
+```
+    ```mermaid
+    graph LR
+        id1(Start)-->id2(Stop)
+        style id1 fill:#f9f,stroke:#333,stroke-width:4px,fill-opacity:0.5
+        style id2 fill:#ccf,stroke:#f66,stroke-width:2px,stroke-dasharray: 10,5
+    ```
+```
+
+流程图：
+```mermaid
+flowchart TD
+    Start([开始]) --> Input[/输入数据/]
+    Input --> Process{处理数据}
+    Process -->|数据有效| Valid((验证通过))
+    Process -->|数据无效| Invalid>返回错误]
+    Valid --> DB[(保存到数据库)]
+    DB --> Success[处理成功]
+    Invalid -.-> Input
+    Success --> End([结束])
+    
+    style Valid fill:#98FB98
+    style Invalid fill:#FFB6C1
+    style DB fill:#87CEEB
+```
+
+```
+    ```mermaid
+    flowchart TD
+        Start([开始]) --> Input[/输入数据/]
+        Input --> Process{处理数据}
+        Process -->|数据有效| Valid((验证通过))
+        Process -->|数据无效| Invalid>返回错误]
+        Valid --> DB[(保存到数据库)]
+        DB --> Success[处理成功]
+        Invalid -.-> Input
+        Success --> End([结束])
+        
+        style Valid fill:#98FB98
+        style Invalid fill:#FFB6C1
+        style DB fill:#87CEEB
+    ```
+```
+
+时序图：
+
+```mermaid
+%% 时序图例子,-> 直线，-->虚线，->>实线箭头
+  sequenceDiagram
+    participant 张三
+    participant 李四
+    张三->王五: 王五你好吗？
+    loop 健康检查
+        王五->王五: 与疾病战斗
+    end
+    Note right of 王五: 合理 食物 <br/>看医生...
+    李四-->>张三: 很好!
+    王五->李四: 你怎么样?
+    李四-->王五: 很好!
+```
+
+```
+    ```mermaid
+    %% 时序图例子,-> 直线，-->虚线，->>实线箭头
+    sequenceDiagram
+        participant 张三
+        participant 李四
+        张三->王五: 王五你好吗？
+        loop 健康检查
+            王五->王五: 与疾病战斗
+        end
+        Note right of 王五: 合理 食物 <br/>看医生...
+        李四-->>张三: 很好!
+        王五->李四: 你怎么样?
+        李四-->王五: 很好!
+    ```
+```
+
+甘特图
+
+```mermaid
+%% 语法示例
+        gantt
+        dateFormat  YYYY-MM-DD
+        title 软件开发甘特图
+        section 设计
+        需求                      :done,    des1, 2014-01-06,2014-01-08
+        原型                      :active,  des2, 2014-01-09, 3d
+        UI设计                     :         des3, after des2, 5d
+    未来任务                     :         des4, after des3, 5d
+        section 开发
+        学习准备理解需求                      :crit, done, 2014-01-06,24h
+        设计框架                             :crit, done, after des2, 2d
+        开发                                 :crit, active, 3d
+        未来任务                              :crit, 5d
+        耍                                   :2d
+        section 测试
+        功能测试                              :active, a1, after des3, 3d
+        压力测试                               :after a1  , 20h
+        测试报告                               : 48h
+```
+
+```
+    ```mermaid
+    %% 语法示例
+            gantt
+            dateFormat  YYYY-MM-DD
+            title 软件开发甘特图
+            section 设计
+            需求                      :done,    des1, 2014-01-06,2014-01-08
+            原型                      :active,  des2, 2014-01-09, 3d
+            UI设计                     :         des3, after des2, 5d
+        未来任务                     :         des4, after des3, 5d
+            section 开发
+            学习准备理解需求                      :crit, done, 2014-01-06,24h
+            设计框架                             :crit, done, after des2, 2d
+            开发                                 :crit, active, 3d
+            未来任务                              :crit, 5d
+            耍                                   :2d
+            section 测试
+            功能测试                              :active, a1, after des3, 3d
+            压力测试                               :after a1  , 20h
+            测试报告                               : 48h
+    ```
+```
+
+# 12 表情符号<a name="12-表情符号"></a>
+
+😄`:smile:`
+
+😆`:laughing:`
+
+😊`:blush:`
+
+😃`:smiley:`
+
+😏`:smirk:`
+
+😍`:heart_eyes:`
+
+😘`:kissing_heart:`
+
+😚`:kissing_closed_eyes:`
+
+😳`:flushed:`
+
+😌`:relieved:`
+
+😆`:satisfied:`
+
+😁`:grin:`
+
+😉`:wink:`
+
+其余建议自己上网搜索。
+
+# 13 公式<a name="13-公式"></a>
+
+公式里面的语法类似于LATEX
+
+公式
+
+$a=a$ : `$a=a$`
+
+公式要单独换行，则前后用`$$`替换`$`
+
+$$
+(a+b)^2 = a^2 + 2ab + b^2
+$$
+
+$$
+\int_{0}^{x}{e^t}dt = \frac{ {\rm d} e^x }{ {\rm d} x } - 
+    \begin{vmatrix}
+    1 & 0 \\
+    0 & 1 \\
+    \end{vmatrix}
+$$
+
+# 14 内嵌HTML<a name="14-内嵌HTML"></a>
+
+<center>居中：</center>
+
+`<center>居中：</center>`
+
+<kbd>快捷键</kbd>
+
+`<kbd>快捷键</kbd>`
+
+<b>加粗</b>
+
+`<b>加粗</b>`
+
+<i>倾斜</i>
+`<i>倾斜</i>`
+
+<button>按钮（没用）</button>
+`<button>按钮（没用）</button>`
 
 # 总结<a name="总结"></a>
 
 在这里总结全文的主要观点和结论。
 
 ---
-**标签**: [标签1], [标签2], [标签3]
+**标签**: [markdown], [编程], [学习]
 
-**分类**: [分类名称]
-
-**版权声明**: 本文遵循 [许可证名称] 协议
-
+**分类**: [文章]
