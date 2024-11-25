@@ -523,14 +523,11 @@ $$
 
 ```
 $$
-
-$$
 \int_{0}^{x}{e^t}dt = \frac{de^x}{dx} - 
     \begin{vmatrix}
     1 & 0 \\
     0 & 1 \\
     \end{vmatrix}
-$$
 $$
 ```
 
