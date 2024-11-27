@@ -219,12 +219,13 @@ https://3542q.github.io/
 
 插入图片
 
-![图片](https://raw.githubusercontent.com/3542Q/ImageRepository/main/image_1.png)
+![图片](https://s2.loli.net/2024/11/26/m15z8xWSyeogkt6.png)
 
+<img src="https://s2.loli.net/2024/11/26/m15z8xWSyeogkt6.png"/>
 
 ```
 插入图片
-![图片](https://raw.githubusercontent.com/3542Q/ImageRepository/main/image_1.png)
+![图片](https://s2.loli.net/2024/11/26/m15z8xWSyeogkt6.png)
 
 ```
 
@@ -554,6 +555,8 @@ $$
 markdown挺好用的。
 
 ---
-**标签**: [markdown], [编程], [学习]
+**封面图片**: [https://s2.loli.net/2024/11/26/m15z8xWSyeogkt6.png]
+
+**标签**: [ markdown, 编程 ,学习 ]
 
 **分类**: [文章]
