@@ -130,7 +130,7 @@ A．3总结说明
 ```
 
 ---
-**封面图片**: [https://sm.ms/delete/JDqjiLMGUnX5gr3IevHmaFPy6A]
+**封面图片**: [https://sm.ms/image/73tauqFWRnOmSXV]
 
 **标签**: [计算机, 算法, 博弈论, 学习 , 书籍]
 
