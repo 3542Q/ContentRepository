@@ -29,7 +29,7 @@ Matching Pennies（硬币配对）
 
 博弈树显示如下：
 
-<img src=".\屏幕截图 2024-11-29 174705.png">
+<img src="https://s2.loli.net/2024/12/01/Yy92thTUkvCrK3H.png">
 
 节点分为三种类型：（1）根节点（初始决策节点,root node）； （2）决策节点（即内部节点, internal node）； (3)终端节点(或叶节点, leaf node)。游戏中可能发生的每个可能的事件序列都由从根节点到终端结点，当博弈开始时，该路径成为行动路径（path of play）
 
