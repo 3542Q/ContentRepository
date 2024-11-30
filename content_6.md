@@ -14,7 +14,7 @@ u<sub>i</sub>是所有S<sub>i</sub>的笛卡尔积到实数的映射，其对应
 
 这里为了方便起见，记S为所有S<sub>i</sub>的笛卡尔积，一个经典的策略组记作(s<sub>1</sub>,...,s<sub>n</sub>)，另外我们记S<sub>-i</sub>为所有除了i以外的S<sub>j</sub>的笛卡尔积，表示除了参与人i以外的所有其他人的策略集，当我们关注特定参与人时，我们就可以用(s<sub>i</sub>,s<sub>-i</sub>)来表示，其中s<sub>i</sub>属于S<sub>i</sub>，s<sub>-i</sub>属于S<sub>-i</sub>。
 
-<img src="https://s2.loli.net/2024/12/01/dxOKyez2176qcIk.png"/>
+<img src="https://s2.loli.net/2024/12/01/BmLMt9KZCvG4Ncj.png"/>
 
 给定一个两人博弈，如果对所有的s<sub>1</sub>属于S<sub>1</sub>，s<sub>2</sub>属于S<sub>2</sub>，有S<sub>1</sub>=S<sub>2</sub>且u<sub>1</sub>(s<sub>1</sub>,s<sub>2</sub>)=u<sub>2</sub>(s<sub>1</sub>,s<sub>2</sub>)，那么这个博弈就是对称博弈。
 
@@ -22,13 +22,13 @@ u<sub>i</sub>是所有S<sub>i</sub>的笛卡尔积到实数的映射，其对应
 
 零和博弈：所有参与者的效用之和为0。
 
-<img src="https://s2.loli.net/2024/12/01/o8DayGXnqwZbEpc.png"/>
+<img src="https://s2.loli.net/2024/12/01/BCXUM6er1JfYOAo.png"/>
 
 注：
 
-<img src="https://s2.loli.net/2024/12/01/IhRiBGqEH2xQdez.png"/>
+<img src="https://s2.loli.net/2024/12/01/PxW6KZCL2og49we.png"/>
 
-<img src="https://s2.loli.net/2024/12/01/uqlFZVL3AvoDmwa.png"/>
+<img src="https://s2.loli.net/2024/12/01/s8WixDlOTv2ZRIw.png"/>
 
 (2) 
 参与人集合N = {1,2,...,n}

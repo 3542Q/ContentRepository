@@ -39,7 +39,7 @@ Matching Pennies（硬币配对）
 
 博弈树如下：
 
-<img src="https://s2.loli.net/2024/12/01/vg2IPZBaz3ioAVE.png"/>
+<img src="https://s2.loli.net/2024/12/01/5laisAH67S2OwTB.png"/>
 
 注意这个博弈树跟之前的那个有一个区别，就是中间的线变为虚线。
 
@@ -51,7 +51,7 @@ Matching Pennies（硬币配对）
 
 # 定义<a name="定义"></a>
 
-<img src="https://s2.loli.net/2024/12/01/1LcDmTQiuqF4vCw.png"/>
+<img src="https://s2.loli.net/2024/12/01/T2WSbjkdEoVQuxP.png"/>
 
 注：
 
@@ -61,19 +61,19 @@ Matching Pennies（硬币配对）
 
 参与人函数是一个从参与人i的信息集到其终止路径的映射。
 
-<img src="https://s2.loli.net/2024/12/01/EQ9TbjVFBeaDq5z.png"/>
+<img src="https://s2.loli.net/2024/12/01/rpNM8ibI73WHaXg.png"/>
 
 一个策略是指参与人在每个信息集上做什么（注意：一个策略需要指明参与人在所有的信息集上分别做什么）。
 
-<img src="https://s2.loli.net/2024/12/01/ncV7itOP3BWkC1T.png"/>
+<img src="https://s2.loli.net/2024/12/01/oBYFKnalxmkPGgh.png"/>
 
 遍历所有的路径，并枚举所有的可能的选择，然后就能获得策略，进而我们实现了将展开型博弈转化为策略型博弈的过程。
 
-<img src="https://s2.loli.net/2024/12/01/qKRl128JUIp5AYP.png"/>
+<img src="https://s2.loli.net/2024/12/01/wpitUW2zIH9NFga.png"/>
 
-<img src="https://s2.loli.net/2024/12/01/FMya9Khgb4cntJq.png"/>
+<img src="https://s2.loli.net/2024/12/01/zbFJBMx9SAq74v8.png"/>
 
-<img src="https://s2.loli.net/2024/12/01/3jUyMQdIPcr2n5a.png"/>
+<img src="https://s2.loli.net/2024/12/01/uRxbGHjQPnUwcil.png"/>
 
 (1)图略。此处注意以下几点：玩家分别记作A和B，而从左上到右下的9个格子分别记作1,2,...,9。
 玩家A和玩家B应当交替的行动。
