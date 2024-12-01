@@ -43,17 +43,17 @@
 
 回忆定义：
 
-$u_i( s_i^’, s_{-i}) > u_i( s_i, s_{-i}) \forall s_{-i} \in S_{-i}$
+$u_i( s_i^{`}, s_{-i}) > u_i( s_i, s_{-i}) \forall s_{-i} \in S_{-i}$
 
-故此如果有2个强优势策略$s_i^’$和$s_i$，则出现了$u_i( s_i^’, s_{-i}) > u_i( s_i, s_{-i}) $以及$u_i( s_i^’, s_{-i}) < u_i( s_i, s_{-i}) $， 矛盾。
+故此如果有2个强优势策略$s_i^{`}$和$s_i$，则出现了$u_i( s_i^’, s_{-i}) > u_i( s_i, s_{-i}) $以及$u_i( s_i^’, s_{-i}) < u_i( s_i, s_{-i}) $， 矛盾。
 
 弱优势策略的不唯一性：
 
 回忆定义：
 
-$u_i( s_i^’, s_{-i}) >= u_i( s_i, s_{-i}) \forall s_{-i} \in S_{-i}$
+$u_i( s_i^{`}, s_{-i}) >= u_i( s_i, s_{-i}) \forall s_{-i} \in S_{-i}$
 
-$u_i( s_i^’, s_{-i}) > u_i( s_i, s_{-i}) \exists s_{-i} \in S_{-i}$
+$u_i( s_i^{`}, s_{-i}) > u_i( s_i, s_{-i}) \exists s_{-i} \in S_{-i}$
 
 显然, 只需要保证第二个条件对应的$s_{-i}$不同即可。
 
@@ -61,7 +61,7 @@ $u_i( s_i^’, s_{-i}) > u_i( s_i, s_{-i}) \exists s_{-i} \in S_{-i}$
 
 回忆定义：
 
-$u_i( s_i^’, s_{-i}) >= u_i( s_i, s_{-i}) \forall s_{-i} \in S_{-i}$
+$u_i( s_i^{`}, s_{-i}) >= u_i( s_i, s_{-i}) \forall s_{-i} \in S_{-i}$
 
 显然，只需要取到等号，就可以保证有多个极弱优势策略的。
 

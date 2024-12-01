@@ -2,9 +2,6 @@
 
 <div style="text-align:center;">2024-11-30</div>
 
-<!-- TOC -->
-<!-- /TOC -->
-
 回忆策略型博弈的定义
 
 <img src="https://s2.loli.net/2024/12/01/Q2P65JgfiuCVdEF.png"/>
