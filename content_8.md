@@ -78,7 +78,7 @@
 
 回忆定义：
 
-极弱优势策略 $s_i^{'}$ 满足：$u_i( s_{i}^{'}, s_{-i}) \ge u_{i} ( s_i, s_{-i}), \forall s_{-i} \in S_{-i}, \forall s_i \in S_i $
+极弱优势策略 $s_i^{\ast}$ 满足：$ u_i (s_i^{\ast}, s_{-i}) \ge u_i (s_i, s_{-i}), \forall s_{-i} \in S_{-i}, \forall s_i \in S_i $
 
 可见对于每个参与人 $i$，其偏离策略时不会得到额外收益，所以其是纯策略纳什均衡。
 
