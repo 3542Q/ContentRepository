@@ -221,7 +221,7 @@ https://3542q.github.io/
 
 ![图片](https://s2.loli.net/2024/11/26/m15z8xWSyeogkt6.png)
 
-<img src="https://s2.loli.net/2024/12/01/snr97fOyIRNxBli.png"/>
+<img align="center" src="https://s2.loli.net/2024/12/01/snr97fOyIRNxBli.png"/>
 
 ```
 插入图片
@@ -499,38 +499,46 @@ flowchart TD
 
 公式
 
-$a=a$ : `$a=a$`
+$ a=a $ : `$a=a$`
 
-$\sqrt{3x-1}+(1+x)^2$
+$ \sqrt{3x-1}+(1+x)^2 $
 
 公式要单独换行，则前后用`$$`替换`$`
 
 $$
+
 (a+b)^2 = a^2 + 2ab + b^2
+
 $$
 
 ```
 
 $$
+
 (a+b)^2 = a^2 + 2ab + b^2
+
 $$
 ```
 
 $$
+
 \int_{0}^{x}{e^t}dt = \frac{de^x}{dx} - 
     \begin{vmatrix}
     1 & 0 \\
     0 & 1 \\
     \end{vmatrix}
+
 $$
 
 ```
 $$
+
 \int_{0}^{x}{e^t}dt = \frac{de^x}{dx} - 
     \begin{vmatrix}
     1 & 0 \\
     0 & 1 \\
     \end{vmatrix}
+
 $$
 ```
 
