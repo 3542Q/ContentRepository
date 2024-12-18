@@ -43,7 +43,7 @@
 
 回忆定义：
 
-$ u_i( s_i^{`}, s_{-i}) > u_i( s_i, s_{-i}) \forall s_{-i} \in S_{-i} $
+$u_i( s_i^{`}, s_{-i}) > u_i( s_i, s_{-i}) \forall s_{-i} \in S_{-i}$
 
 故此如果有2个强优势策略$ s_i^{`} $和$ s_i $，则出现了$ u_i( s_i^’, s_{-i}) > u_i( s_i, s_{-i}) $以及$ u_i( s_i^’, s_{-i}) < u_i( s_i, s_{-i}) $， 矛盾。
 
