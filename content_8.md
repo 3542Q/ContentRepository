@@ -78,7 +78,7 @@
 
 回忆定义：
 
-极弱优势策略 $ s_i^{\ast} $ 满足：$ u_i(s_i^\ast, s_{-i}) \ge u_i(s_i, s_{-i}), \quad \forall s_{-i} \in S_{-i}, \quad \forall s_i \in S_i $
+极弱优势策略 $ s_i^{\ast} $ 满足：$ u_i(s_i^\ast, s_{-i}) \ge u_i(s_i, s_{-i}), \forall s_{-i} \in S_{-i}, \forall s_i \in S_i $
 
 可见对于每个参与人 $ i $，其偏离策略时不会得到额外收益，所以其是纯策略纳什均衡。
 
@@ -286,7 +286,7 @@ $d(s_1,s_2)= \sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$
 
 (16)
 
-全选线路1, 因为$x^p\le x \le 1$
+全选线路1, 因为$ x^p\le x \le 1 $
 
 (17)
 
