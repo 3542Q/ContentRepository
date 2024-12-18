@@ -86,19 +86,19 @@
 
 从玩家1出发，有
 
-$ u_1 ( s_1^{‘}, s_2^{‘}) \ge u_1 ( s_1, s_2^{‘}), \forall s_1 \in S_1 $
+$ u_1 ( s_1^{\ast}, s_2^{\ast}) \ge u_1 ( s_1, s_2^{\ast}), \forall s_1 \in S_1 $
 
 又 $ u_1 ( s_1, s_2) = u_2 ( s_2, s_1), \forall s_1 \in S_1, \forall s_2 \in S_2 $
 
 所以有
 
-$ u_2 ( s_2^{‘}, s_1^{‘}) \ge u_2 ( s_2^{‘}, s_1), \forall s_1 \in S_1 $,
+$ u_2 ( s_2^{\ast}, s_1^{\ast}) \ge u_2 ( s_2^{\ast}, s_1), \forall s_1 \in S_1 $,
 
 同理从玩家2出发可得
 
-$ u_1 ( s_2^{‘}, s_1^{‘}) \ge u_1 ( s_2^{‘}, s_1), \forall s_2 \in S_2 $,
+$ u_1 ( s_2^{\ast}, s_1^{\ast}) \ge u_1 ( s_2^{\ast}, s_1), \forall s_2 \in S_2 $,
 
-所以$(s_2^{‘}, s_1^{‘})$也是纳什均衡。
+所以$(s_2^{\ast}, s_1^{\ast})$也是纳什均衡。
 
 <img src="https://s2.loli.net/2024/12/17/boQacMYVnG1vjLp.png"/>
 
